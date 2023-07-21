@@ -1,0 +1,37 @@
+.root {
+  position: relative;
+  margin: 20px 0;
+  width: 58%;
+  min-height: 52px;
+}
+.input {
+  background-color: #5a5c66;
+  width: 100%;
+  padding: 15px 0 15px 26px;
+  position: absolute;
+  font-size: 16px;
+  color: #fff;
+  border: 0;
+}
+.icon {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 15px;
+  right: 0;
+  svg {
+    fill: #fff;
+  }
+  svg path {
+    fill: #fff;
+  }
+}
+.closed {
+  width: 18px;
+  height: 18px;
+  top: 15px;
+  right: 11px;
+  position: absolute;
+  opacity: 0.3;
+  cursor: pointer;
+}
